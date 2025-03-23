@@ -1,6 +1,6 @@
 # Hilt Android (Jetpack Compose)
-yêu cầu hoàn thành theo các bước
-step 1: Thêm Dependencies
+
+step 1: Thêm Dependencies(yêu cầu hoàn thành theo các bước)
 
 Mở file build.gradle.kts (Module: app) và thêm các dependencies sau:
 

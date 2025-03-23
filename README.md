@@ -97,6 +97,77 @@ plugins {
 </pre>
 
 
+# Room setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+    //room
+    implementation("androidx.room:room-runtime:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+</code>
+</pre>
+
+
+# Paging3 setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+  //paging3
+  implementation("androidx.paging:paging-compose:3.3.6")
+</code>
+</pre>
+
+
+# Navigation setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+    //navigation
+    implementation("androidx.navigation:navigation-compose:2.8.7")
+</code>
+</pre>
+
+# viewpager setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+    //viewpager
+    implementation("com.google.accompanist:accompanist-pager:0.32.0")
+</code>
+</pre>
+
+</pre>
+
+# viewpager setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+    //viewpager
+    implementation("com.google.accompanist:accompanist-pager:0.32.0")
+</code>
+</pre>
+
+
+# Preview setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+    //Preview
+    implementation("androidx.compose.ui:ui-tooling-preview:1.7.8") // Phiên bản mới nhất
+    debugImplementation("androidx.compose.ui:ui-tooling:1.7.8")
+    implementation("androidx.compose.ui:ui-graphics:1.7.8") //
+</code>
+</pre>
+
+
+
+
+
+
+
+
+
+
 
 
 

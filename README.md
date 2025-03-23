@@ -1,6 +1,4 @@
 # Hilt Android (Jetpack Compose)
-
-
 1. Thêm Dependencies
 
 Mở file build.gradle.kts (Module: app) và thêm các dependencies sau:
@@ -68,9 +66,26 @@ plugins {
 </code>
 </pre>
 
-Sau đó, bạn có thể sử dụng Hilt để inject dependencies vào các thành phần của Android như Activity, Fragment, ViewModel,...
 
-Lưu ý: Hilt là giải pháp Dependency Injection mạnh mẽ và tối ưu cho Android. Hãy đảm bảo bạn sử dụng đúng phiên bản và cập nhật thường xuyên để có hiệu suất tốt nhất.
 
-Chúc bạn thành công! 🚀
+
+# Viewmodel setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+    //viewmodel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+</code>
+</pre>
+
+
+
+
+
+
+
+
 

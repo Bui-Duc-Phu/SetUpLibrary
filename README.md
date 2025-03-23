@@ -84,6 +84,21 @@ plugins {
 
 
 
+# Retrofit setup (Jetpack Compose)
+1. Thêm Dependencies
+<pre>
+<code>
+     // Retrofit core library
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+</code>
+</pre>
+
+
+
+
 
 
 
